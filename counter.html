@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Counter App</title>
+</head>
+<body ng-app="app">
+  <div ng-controller="FirstController">
+    <h4>The simplest adding machine ever</h4>
+    <button ng-click="add(1)" class="button">Add</button>
+    <button ng-click="subtract(1)" class="button alert">Subtract</button>
+    <h4>Current count: {{ counter }}</h4>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+  <script type="text/javascript" src="js/counter.js"></script>
+</body>
+</html>
